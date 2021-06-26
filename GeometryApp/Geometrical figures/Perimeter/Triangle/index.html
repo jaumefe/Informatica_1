@@ -1,0 +1,26 @@
+<!DOCTYPEhtml>
+ <head>
+	<title>Perimeter of a triangle</title> 
+	<meta charset="utf-8"> 
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" 
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head>
+
+ <body>
+	<h1>PERIMETER OF A TRIANGLE</h1>
+	<p> The formula of the perimeter of a triangle is </p> $$ perimeter= a + b + c $$
+	<p> In this web you can calculate the perimeter of any triangle, you only  have to put the dimensions of the sides in the cells </p>
+	<p><img src="perimeter.jpg" width="300" height="150"alt></p>
+	<form oninput="p.value = perimeter(a.valueAsNumber,b.valueAsNumber,c.valueAsNumber)">
+		<p>Side A: <input name="a" type="number"></p>
+		<p>Side B: <input name="b" type="number"></p>
+		<p>Side C: <input name="c" type="number"></p>
+		<p>Perimeter: <output name="p" type="number" ></output></p>
+</form>
+
+<p><button><a href="..">Back</a></button></p>
+	<script src="perimeter.js"></script> 
+</body>
+</html>

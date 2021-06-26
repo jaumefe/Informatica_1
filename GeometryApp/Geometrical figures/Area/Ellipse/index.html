@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+
+<html lang="en-US">                                                                                                                         
+<head> 
+	<title> Area of a Ellipse </title> 
+	<meta charset="utf-8"> 
+	<script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   </script>
+	<link rel="stylesheet" href="style.css">
+</head> 
+
+<body> 
+	<h1>  Area of a Ellipse  </h1>
+	<p>
+	The area of the ellipse can be calculated: \( \text{Area} = \pi a b \)
+	</p>
+    <p>
+	<center><img src="ellipse.jpg" width="300" height = "150" alt ="ellipse"></center>
+	</p>
+	<form oninput="a.value = area(c.valueAsNumber, d.valueAsNumber)">
+		<p>Semi axis-a: <input name="c" type="number"></p>
+		<p>Semi axis-b: <input name="d" type="number"></p>
+		<p> Area: <output name="a"></output></p>
+	</form>
+<p><a href=".."><button>Back</button></a></p>	
+<p> 
+ <script src="ellipse.js"></script>
+</p> 
+</body> 
+
+</html>

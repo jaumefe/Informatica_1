@@ -1,0 +1,30 @@
+<!DOCTYPEhtml>
+
+<html lang="en-US">
+ <head>
+	<title>Perimeter of a regular n-poligon</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" 
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+ </head>
+ <body>
+	<h1><center>Perimeter of a regular n-poligon</center></h1>
+  <p> 
+	The perimeter of a regular n-pligon is calculated with this formula: $$ perimeter =n*length $$
+	Where the "n" is the number of sides of any regular n-poligon.
+  </p>
+	<center><p><img src="regularn-poligon.jpg" width="300" height="150" alt="n-poligon"></p></center>
+
+<form oninput="P.value = Perimeter(n.valueAsNumber,l.valueAsNumber)">
+	<p>Number of sides: <input name="n" type="number"></p>
+	<p>Length of the sides: <input name="l" type="number"></p>
+	<p>Perimeter: <output name="P"></output></p>
+</form>
+	<p><button><a href="..">Back</a></button></p>
+	<script src="script.js"></script> 
+
+</body>
+
+</html>

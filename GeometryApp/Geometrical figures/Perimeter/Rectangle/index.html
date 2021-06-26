@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+ <head>
+   <title>Perimeter of a rectangle</title>
+   <meta charset="utf-8">
+   <link rel= "stylesheet" href="style.css">
+   <script type="text/javascript" 
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   </script>
+ </head>
+ <body>
+   <h1>Perimeter of a rectangle</h1>
+   <p> 
+   The area of a triangle is calculated with this formula: $$ perimeter = width+width+length+length$$ 
+   or: $$ perimeter = (2*width)+(2*length) $$
+   </p>
+   <p>
+   Here you can put the value for the length and width of a rectangle so you can calculate its perimeter.
+   </p>
+   <p>
+   <img src="rectangle.jpg" width="300" height="150" alt="rectangle"> 
+   </p>
+   <p>
+   "this is a rectangle"
+   </p>
+   <form oninput="p.value = perimeter(l.valueAsNumber, w.valueAsNumber)">
+     <p><strong>Length:</strong><input name="l" type="number"></p>
+     <p><strong>Width:</strong><input name="w" type="number"></p>
+     <p><strong>Perimeter:</strong> <output name="p"></output></p>
+   </form>
+   <p><button><a href="..">Back</a></button></p>
+   <script src="script.js"></script>
+   </body>
+</html>

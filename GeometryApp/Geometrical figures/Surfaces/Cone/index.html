@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="en-US"> 
+<head> 
+	<link rel="stylesheet" href="Style.css">
+	<title>Surface of a cone</title> 
+	<script type="text/javascript" 
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head> 
+<body> 
+	<h1>Surface of a cone</h1> 
+ <p>The formula which is taken here to calculate the surface is the following:</p> $$ S= \pi\, r^2 + \pi \,r \,h $$
+ <form oninput="s.value = Surface(r.valueAsNumber, h.valueAsNumber)">
+	<p> 
+	<img src="cone.jpg" width="170" height="200" alt="cone"> 
+	</p>
+	<p>Radius: <input name="r" type="number"></p>
+	<p>Height: <input name="h" type="number"></p>
+	<p>Surface: <output name="s"></output></p>
+ </form>
+<p><a href=".."><button>Back</button></a></p>
+<script src="scriptcone.js"></script> 
+ 
+</body> 
+</html>

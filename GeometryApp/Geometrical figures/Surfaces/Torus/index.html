@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+
+<html lang="en-US"> 
+
+<head> 
+   <title>Surface of the torus</title> 
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css">
+   
+   <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   </script>   
+</head> 
+
+
+<body>
+   <center>
+    <h1>Surface of the torus</h1>
+   
+    <p> 
+      You can calculate the surface of a Torus thanks to the formula: \( S= 4\pi^2 r R \)
+    </p>
+   
+    <p> 
+      <img src="image_torus.GIF" width="200" height="200" alt="torus"> 
+    </p> 
+   
+   
+    <form oninput="s.value = surface(r.valueAsNumber,R.valueAsNumber)"> 
+      <p>Radius \( r \): <input name="r" type="number"></p>
+      <p>Radius \( R \): <input name="R" type="number"></p>
+      <p>Surface \( S= \)<output name="s"></output></p>
+    </form>
+   
+    <script src="formule_surface_torus.js"></script>
+   
+    <p>
+      <a href=".."><button>Back</button></a>
+    </p>
+   </center>
+</body> 
+
+</html>

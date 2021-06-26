@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Distance in the plane</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <h1>Distance in the plane</h1>
+  <p> 
+  This web page can be used in order to calculate the distance between two points: P(\(x_1,y_1\)) and Q(\(x_2,y_2\))
+  </p>
+  <p>
+  The distance between two points in the plane is computed by this formula:
+  </p>
+  $$ dist(P,Q) = \sqrt{(x_2-x_1)^2+(y_2-y_1)^2} $$
+  <form oninput="d.value = Distance(x1.valueAsNumber, x2.valueAsNumber, y1.valueAsNumber, y2.valueAsNumber)">
+    <p> \(x_1\) <input name="x1" type="number"></p>
+    <p> \(y_1\): <input name="y1" type="number"></p>
+    <p> \(x_2\): <input name="x2" type="number"></p>
+    <p> \(y_2\): <input name="y2" type="number"></p>
+    <p>Distance :<output name="d"></output></p>
+  </form>
+  <script src="script.js"></script>
+  <p>
+   <a href="http://al316215.altervista.org/Lab_1/"> Back </a>
+  </p>
+</body>
+
+</html>

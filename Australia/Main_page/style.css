@@ -1,0 +1,20 @@
+h1 { 
+ font-family: "Papyrus"; 
+ text-align: center;
+ color: #008080;
+ font-size: 70px; 
+ }
+ 
+body { 
+ background-color: #7FFFD4;
+ font-size: 30px; 
+ margin: 0 10%; 
+ font-family: "Papyrus"; 
+ text-align: center;
+}
+
+input {
+ font-family: "Arial";
+ font-size: 10px; 
+ text-align: center;
+ width: 20%;

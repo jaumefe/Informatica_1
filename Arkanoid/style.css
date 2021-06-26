@@ -1,0 +1,16 @@
+body { 
+ background-color: "white";
+background: url(fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+ font-size: 20px; 
+ margin: 0 10%; 
+}
+input {
+ font-family: Serif;
+ font-size: 20px; 
+ text-align: center;
+ width: 20%;
+}

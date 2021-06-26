@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+
+<head> 
+	<title>Area of a trapezoid</title> 
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" 
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head>
+
+<body> 
+	<h1>Area of a trapezoid</h1> 
+    <p>
+    The formula which is taken here to calculate the area of the trapezoid is the following: $$ A= \frac {(a+b)h} 2 $$
+    </p>
+    <p>
+		<img src="trapezoid.png" width="300" height="150" alt="trapezoid" </p>
+	<form oninput="a.value = area(b.valueAsNumber, c.valueAsNumber, h.valueAsNumber)">
+ 		<p>Base a: <input name="b" type="number"></p>
+		<p>Base c: <input name="c" type="number"></p>
+		<p>Height h: <input name="h" type="number"></p>
+		<p>Area: <output name="a"></output></p>
+
+	</form>
+    <p><button><a href="..">Back</a></button></p>
+<script src="script.js"></script> 
+	
+</body> 
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+ <head>
+   <title>Volume of an Ellipsoid</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="Style.css">
+   <script type="text/javascript"
+      src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+ </head>
+
+
+ <body>
+    <h1>Find the volume of your ellipsoid!</h1>
+
+    <p>You can calculate the volume of an ellipsoid with the following formula:</p>
+    $$V= \frac {4}{3} \pi a b c$$   
+    
+    <p>
+      <img src="elipsoid.gif" width="300" height="150" alt="cylinder">
+    </p>
+    
+    <form oninput="V.value = volume(a.valueAsNumber,b.valueAsNumber,c.valueAsNumber)">
+      
+       <p>Lenght \( a \) = <input name="a" type="number"></p>
+       <p>Width \( b \)  = <input name="b" type="number"></p>
+       <p>Height \( c \) = <input name="c" type="number"></p>
+       <p>Volume = <output name="V"></output></p>
+
+     </form>
+     
+     <script src="script.js"></script>  
+     <p><a href=".."><button>Back</button></a></p>
+ </body>
+
+ </html>

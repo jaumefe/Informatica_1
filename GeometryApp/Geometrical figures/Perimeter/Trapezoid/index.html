@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+  
+	<title>Perimeter of a trapezoid</title>
+<script type="text/javascript" 
+ src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+
+<body>
+  
+  <h1>Perimeter of a trapezoid</h1>
+ <p>The formula which is taken here to calculate the perimeter is the following:  $$ P=\text{side A} + \text{side B} + \text{side C} + \text{side D}  $$
+ </p>
+ <p><img src="trapezoid.png" width="160" height="140" alt="trapezoid">
+  </p>
+  
+  <form oninput="p.value = perimeter(a.valueAsNumber,b.valueAsNumber,c.valueAsNumber,d.valueAsNumber)">
+  	<p>Side A: <input name="a" type="number" /></p>
+  	<p>Side B: <input name="b" type="number" /></p>
+  	<p>Side C: <input name="c" type="number" /></p>
+  	<p>Side D: <input name="d" type="number" /></p>
+  	<p>Perimeter: <output name="p"></output></p>
+    <p><button><a href="..">Back</a></button></p>
+  </form>
+<script src="script.js"></script>
+  
+</body>
+
+</html>

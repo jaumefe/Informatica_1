@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Currency Conversion</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Currency Conversion</h1>
+  <p> This web page allows to convert an amount of euros into dollars by a given exchange rate </p>
+  <form oninput="d.value = Dollars(r.valueAsNumber, e.valueAsNumber)">
+    <p>Exchange rate: <input name="r" type="number"> $/&#128;</p>
+    <p>Euros: <input name="e" type="number"> &#128;= Dollars: <output name="d"></output> $</p>
+  </form>
+  <center>
+  <p><img src="exchange_rate.jpg" width="427" height="290" alt="Exchange_rate"></p>
+  </center>
+  <script src="script.js"></script>
+  <p>
+   <a href="http://al316215.altervista.org/Lab_1/">Back</a>
+  </p>
+</body>
+
+</html>

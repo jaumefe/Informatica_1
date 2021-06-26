@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+
+<head>
+	<title>Area of a Regular n-Polygon</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript"
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head>
+
+<body>
+	<h1>Area of a Regular n-Polygon.</h1>
+	<p>This is the formula for the area of a regular n-polygon:</p>	
+	$$ Area = \frac {1}{4} n l^2 \cot{\frac{\pi}{n}} $$
+	<p><img src="polygons.jpg" width="300" height="150" alt="polygons"></p>
+	<form oninput="a.value = area(n.valueAsNumber, l.valueAsNumber)">
+		<p>Number of sides: <input name="n" type="number"></p>
+		<p>Side: <input name="l" type="number"></p>
+		<p>Area: <output name="a"></output></p>
+</form>
+
+	<script src="script.js"></script>
+
+	<p><button><a href="..">Back</a></button></p>
+</body>
+
+
+</html>

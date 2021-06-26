@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+
+<head>
+	<title>Volume of a rectangular prism</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="Style.css">
+	<script type="text/javascript"
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head> 
+
+<p><h1><strong>The volume of a rectangular prism</strong></h1></p>
+
+<body>
+
+	<p>I'm going to predict the volume of the rectangular prism that you want with the formula:</p> 
+	$$ Volume = Height * width * Length $$
+
+<img src="volume-of-rectangular-prisms.jpg" width="180px" height="180px" alt="rectangular prism">
+
+	<form oninput="v.value = volume(h.valueAsNumber, w.valueAsNumber, l.valueAsNumber)">
+		<p>Height = <input name="h" type="number"></p>
+		<p>Width  = <input name="w" type="number"></p>  
+		<p>Length = <input name="l" type="number"></p>
+		<p>Volume = <output name="v"></output></p>
+	</form>
+ 
+<p>
+
+<script src="script.js"></script>
+
+</p>
+   <p><a href=".."><button>Back</button></a></p>
+</body>
+
+</html>
