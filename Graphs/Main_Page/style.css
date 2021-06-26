@@ -1,0 +1,11 @@
+body  {
+  background-color: #ADFF2F;
+  font-size: 36px;
+  margin: 0 10%;
+}
+input {
+    font-family: Serif;
+	font-size: 36px;
+	text-align: right;
+	width: 20%;
+}

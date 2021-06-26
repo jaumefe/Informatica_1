@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Tension of a cable</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <h3>Tension of a cable</h3>
+  <p>A 200-pound object is to be hung from the end of a rigid 8-foot horizontal pole of negligible weight, as shown in the figure below.
+  The pole is attached to a wall by a pivot and is supported by an 8-foot cable that is attached to the wall at a higher point.
+  The tension on this cable is given by the equation:</p>
+  $$ T= \frac{W \times l_c \times l_p}{d \sqrt{l_p^2-d^2}} $$
+  <p>where \(T \) is the tension of the cable, \( W \) is the weight of the object, \( l_c \) is the length of the cable, \(l_p \) is the
+  length of the pole, and \( d \) is the distance along the pole at which the cable is attached.</p>  
+  <canvas width="1000" height="1000"></canvas>
+  <form oninput="T.value = tension(d.valueAsNumber); cable(d.valueAsNumber); arrow(d.valueAsNumber)">
+	<p>Distance:0 <input type ="range" name ="d" min ="0" max="8" step="0.01">8ft</p>
+	<p>Tension: <output name ="T"></output> lb </p>
+  </form>
+  <p><a href="http://al316215.altervista.org/Lab_3/"><button>Back</button></a></p>
+  <script src="script.js"></script>
+</body>
+
+</html>

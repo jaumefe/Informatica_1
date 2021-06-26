@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Power transfer to load</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <h1>Power transfer to load</h1>
+  <p>The power suplied versus load resistance is:</p>
+  $$ P_L = I^2R_L $$
+  <p>where I is the current supplied to a load. This current can be calculated by Ohm's Law:</p>
+  $$ I = \frac{V}{R_S+R_L} $$
+  <p>where \( R_S \) is the internal resistance of the powersupply and \( R_L \) is the load resistance.</p>
+  <p>Assume that:</p>
+  <ul>
+  <li><i>V</i> = 120 V</li>
+  <li><i>R<sub>L</sub></i> varies from 0 to 100 Ω</li>
+  </ul>
+  <p>Compute and plot \( P_L \) versus \( R_L \) for \( R_S \) = 25, 50, 75, 100 \( \Omega \)</p>
+  <canvas width="880" height="880"></canvas>
+  <script src="script.js"></script>
+  <p><a href="http://al316215.altervista.org/Graphs/Main_Page/"><button>Back</button></a></p>
+</body>
+
+</html>

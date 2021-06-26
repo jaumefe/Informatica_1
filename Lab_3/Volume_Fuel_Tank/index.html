@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Volume of Fuel in a Tank</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+	src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+<body>
+  <h3>Volume of Fuel in a Tank</h3>
+  <p>A fuel tank has a cylinder shape with two hemispheres on each side,as shown in the figure.</p>
+  <p>Here, it is displayed the volume of fuel of a tank with the following properties : \(r = 50\) cm,
+  \(h_{tank} = 3\) m.</p>
+  <canvas width="800" height="800"></canvas>
+	<p>Radius: 50 cm </p>
+	<p>Height of the tank: 3m </p>
+  <form oninput="V.value = volume(hf.valueAsNumber); fuel(hf.valueAsNumber); hemisphere1(hf.valueAsNumber);hemisphere2(hf.valueAsNumber); level(hf.valueAsNumber); arrow(hf.valueAsNumber)">
+	<p>Height of fuel:0 <input type ="range" name ="hf" min ="0" max="3" step="0.01">3m</p>
+	<p>Volume: <output name ="V"></output>\( m^3 \) </p>
+  </form>
+  <p><a href="http://al316215.altervista.org/Lab_3/"><button>Back</button></a></p>
+  <script src="script.js"></script>
+</body>
+
+</html>
