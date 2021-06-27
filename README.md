@@ -71,4 +71,7 @@ Here, there are the two exercises done for laboratory 3. It consists of a simple
 
 Honestly, I have to admit that I am really proud of how the "Volume of a fuel tank" exercises is represented.
 
+## Lab 4
+Simply connect four game for two players on the same computer. Just enjoy!!
+
 Under construction!
