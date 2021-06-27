@@ -54,4 +54,11 @@ It is an exercise to learn how to write formula on website by using Mathjax. The
 ### GeometryApp
 An application to compute different geometrical properties (area, perimeter, surface and volume) of some figures. This project has been done on a group of six people, whose names are included in the main page of the App.
 
+### Graphs
+These exercises corresponds to laboratory 2. It is an introduction to using graphs on Javascript. There are four different exercises to be done:
+1. Simple plot: Representation of a function: y = x²-10x+5 for x on [-5, 15]
+1. Multiple plots: Representation of cos(2x) and its derivative.
+1. Power to transfer load: Variation of power transmitted depending on the resistance of the generator and the load.
+1. Efficiency of a Power Screw: Representation of a power screw depending on the friction coefficient
+
 Under construction!
