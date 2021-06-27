@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Refraction</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+ <script type="text/javascript" 
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <h1>Refraction</h1>
+  <canvas width='800' height='800'></canvas>
+  <form oninput="O2.value = angleLightRayIncidence(O1.valueAsNumber, n1.valueAsNumber, n2.valueAsNumber)">
+    <p> \(\theta_1 \) <input name="O1" type="number"></p>
+	<p> \( n_1 \) <input name="n1" type="number"></p>
+	<p> \( n_2 \) <input name="n2" type="number"></p>
+    <p> \(\theta_2 \):<output name="O2"></output></p>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

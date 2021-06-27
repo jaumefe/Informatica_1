@@ -1,0 +1,11 @@
+body  {
+  background-color: #00FFFF;
+  font-size: 20px;
+  margin: 0 10%;
+}
+input {
+    font-family: Serif;
+	font-size: 20px;
+	text-align: center;
+	width: 20%;
+}

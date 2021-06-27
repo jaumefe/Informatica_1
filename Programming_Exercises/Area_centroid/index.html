@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Area centroid</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h3>Area centroid</h3>
+  <canvas width="480" height="760"></canvas>
+  <form oninput="yc.value = centroidT(w.valueAsNumber,h.valueAsNumber, t.valueAsNumber,d.valueAsNumber); width(w.valueAsNumber)">
+  	<p>Width(w):<input name="w" type="number" value = "0.24"> m </p>
+	<p>Height <input name="h" type="number" value = "0.38">m</p>
+	<p>Thickness(t):0 <input type ="range" name ="t" min ="0" max="0.38" step="0.01">0.38</p>
+	<p>d:0 <input type ="range" name ="d" min ="0" max="0.24" step="0.01">0.24</p>
+	<p>Position centroid(Y_c): <output name ="yc"></output></p>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

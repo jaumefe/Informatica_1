@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Position of Ball</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Position of Ball</h1>
+  <form oninput="pos.value=distance(v.valueAsNumber, a.valueAsNumber, t.valueAsNumber)">
+   <p>Velocity: <input name="v" type="number"> m/s </p>
+   <p>Angle: <input name="a" type="number">º</p>
+   <p>Time:0 <input type ="range" name ="t" min ="0" max="60" step="0.01">60</p>
+   <p>Distance: <output name='pos'></output></p>
+  </form>
+  <canvas width="800" height="800"></canvas>
+  <script src="script.js"></script>
+  <p>
+  <a href="">Back</a>
+  </p>
+</body>

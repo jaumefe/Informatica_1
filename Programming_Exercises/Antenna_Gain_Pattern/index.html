@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Antenna Gain Pattern</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <h1>Antenna Gain Pattern</h1>
+  <canvas width="800" height="800"></canvas> 
+  <form oninput="G.value = antGainPattern(x.valueAsNumber); sinc(x.valueAsNumber)">
+    <p> alpha <input type ="range" name ="x" min ="-3.17" max="3.17" step="0.01"></p>
+    <p>Gain :<output name="G"></output></p>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

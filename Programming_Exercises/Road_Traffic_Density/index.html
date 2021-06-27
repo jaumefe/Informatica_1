@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Road Traffic Density</title>
+  <meta charset="utf-8">
+<!--   <link rel="stylesheet" href="style.css">-->
+ <script type="text/javascript" 
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <h1>Road Traffic Density</h1>
+  <center><canvas width='800' height='800'></canvas></center>
+  <form oninput="poissonDistribution(t.valueAsNumber, l.valueAsNumber)">
+	<p> \( t \) <input name="t" type="number" value = "1"></p>
+	<p> \(\lambda \) <input name="l" type="number" value = "1.6"></p>
+    <p> Poisson Distribution:<output name="P"></output></p>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>

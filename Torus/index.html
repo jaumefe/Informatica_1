@@ -1,0 +1,32 @@
+<!DOC TYPE html>
+
+<html lang="en-US">
+
+<head>
+   <title>Volume of a Torus</title>
+   <meta charset="utf-8">
+   <script type="text/javascript"
+   src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+   </script>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Volume of a Torus</h1>
+	<p>
+		<img src="torus.jpg" width="300" height="150" alt="Torus">
+	</p>
+    <p>
+    The formula which is taken here to calculate the volume of a torus is the following: \( V= 2\pi^2 R r^2 \)
+    </p>
+	<form oninput="V.value = volume(R.valueAsNumber,r.valueAsNumber)">
+		<p>R: <input name="R" type="number" /></p>
+        <p>r: <input name="r" type="number" /></p>
+        <p>Volume: <output name="V"></output></p>
+	</form>
+    <p>
+		<script src="torus.js"></script>
+	</p>	
+</body>
+
+</html>

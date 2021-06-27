@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <title>Radio Receiver</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript"
+  src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+</head>
+
+<body>
+  <h1>Radio Receiver</h1>
+  <p>
+  A simplified AM radio receiver consists of <br> an RLC tuned circuit containing a resistor, <br> capacitor, and an inductor connected in <br> series, as shown in the picture. <img src="circuit.JPG" align="right" width="466.5" height="298.5" alt="circuit">
+  </p>
+  <p>
+  The resonant frequency of the circuit is given by the equation :
+  </p>
+  $$ f_0 = \frac{1}{2\pi\sqrt{LC}} $$
+  <p>where L is inductance in henrys (H) and C is capacitance in farads (F).</p>
+  <p> The average (rms) voltage across the resistive load varies as a function of the frequency according to the eqaution</p>
+  $$ V_R ={ \frac{R}{\sqrt{R^2+(\omega L - \frac{1}{\omega C})^2}}}V_0 $$
+  <p> where \( \omega \) is the result of \( \omega=2\pi f \)</p>
+  <p> For this web page, it is needed to introduce the values of the variables inthe following units:</p>
+  <p> \( V_0 \) in volts (V) </p>
+  <p> f in kilohertz (kHz) </p>
+  <p> L in milihenry (mH) </p>
+  <p> R in ohm (\( \Omega \))</p>
+  <p> C in nanofarad (nF)</p>
+  <form oninput="F0.value = frequency(L.valueAsNumber, C.valueAsNumber); VR.value = restLoad(L.valueAsNumber, C.valueAsNumber, f.valueAsNumber, R.valueAsNumber, V.valueAsNumber)"> 
+    <p> L: <input name="L" type="number"> mH </p>
+    <p> C: <input name="C" type="number"> nF </p>
+    <p> f: <input name ="f" type="number"> kHz </p>
+    <p> R: <input name="R" type="number">\( \Omega \)</p>
+    <p> \( V_0 \): <input name="V" type="number"> V </p>
+    <p> \( f_0 \): <output name="F0"></output> kHz </p>
+    <p>\( V_R \): <output name ="VR"></output> V </p>	
+  </form>
+  <script src="script.js"></script>
+  <p>
+   <a href="http://al316215.altervista.org/Lab_1/"> Back </a>
+  </p>
+</body>
+
+</html>
