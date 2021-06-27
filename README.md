@@ -3,27 +3,6 @@ This repository contains the exercises done on Computer Science on the first yea
 
 The programming language used for these exercises is: Javascript. Those scripts are combined with HTML and CSS files so as to create websites for different purposes.
 
-The list of exercises done are included here:
-* Area of a triangle
-* Arkanoid
-* Australia
-* Currency converter
-* Distance in the plane
-* Ellipse
-* Formula
-* Geometry App
-* Graphs
-* Lab_1
-* Lab_3
-* Lab_4
-* Lab_5
-* My first web page
-* Polar rose
-* Programming exercises
-* Radio receiver
-* Surface of a cylinder
-* Torus
-
 ## Exercises
 ### Area of a triangle
 This exercise is included inside GeometryApp project. It consists of a simple script which calculates the area of a triangle with the base and height of a triangle.
@@ -74,4 +53,27 @@ Honestly, I have to admit that I am really proud of how the "Volume of a fuel ta
 ## Lab 4
 Simply connect four game for two players on the same computer. Just enjoy!!
 
-Under construction!
+## Lab 5
+Classic Asteroids game. Z = Turn left; X = Turn right; M = Acceleration; N = Shoot
+
+Enjoy!! :)
+
+#My first web page
+Simply that xD. The first exercise of Computer Science, create a simply web page.
+
+## Polar rose
+A simple representation of the polar rose
+
+## Programming Exercises
+It was a collection of programming exercises given to prepare for the final exam. Not all the programs are 100% completed, because I just tested some functions (because the exam was on paper and not with the computer so I only needed to evaluate the Javascript file).
+
+Maybe I'll try to update and complete depending on time
+
+## Radio receiver
+The third part of laboratory 1.
+
+## Surface of a cylinder
+This exercise is included inside GeometryApp project.
+
+## Torus
+This exercise is included inside GeometryApp project.
