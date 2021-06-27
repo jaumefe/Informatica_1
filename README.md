@@ -34,7 +34,24 @@ In general, the game is fully functional. However, sometimes depending on where 
 
 ### Australia
 This is not a project concerning Computer Science. In fact, this is a project carried out by 4 people for English course, in which we were promoting a travel to Australia. Therefore, as we were learning to create websites, we decided to make one, just for fun.
-
 Some links may not be working because they depend on websites created by other members of the group and their Altervista accounts have been deleted.
+
+There are some pages containing information about landmarks of Australia and a currency converter from Australian dollars to euros.
+
+### Currency converter
+A currency converter which works with a given exchange rate. It is contained among the exercises corresponding to Laboratory 1.
+
+### Distance in the plane
+A simply program which computes the distance in the plane of two points.
+It also corresponds to an exercise of Laboratory 1.
+
+### Ellipse
+This exercise is included inside GeometryApp project. It is a script which calculates the area of an ellipse from both semi-axes of the ellipse.
+
+### Formula
+It is an exercise to learn how to write formula on website by using Mathjax. There are three different formulae to write.
+
+### GeometryApp
+An application to compute different geometrical properties (area, perimeter, surface and volume) of some figures. This project has been done on a group of six people, whose names are included in the main page of the App.
 
 Under construction!
