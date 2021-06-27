@@ -61,4 +61,14 @@ These exercises corresponds to laboratory 2. It is an introduction to using grap
 1. Power to transfer load: Variation of power transmitted depending on the resistance of the generator and the load.
 1. Efficiency of a Power Screw: Representation of a power screw depending on the friction coefficient
 
+### Lab 1
+There is a main page with links to all the exercises done for laboratory 1.
+
+### Lab 3
+Here, there are the two exercises done for laboratory 3. It consists of a simple calculus to do and a graph, representing what it has been computed. The two exercises are:
+1. Tension of a cable
+1. Volume of a fuel tank
+
+Honestly, I have to admit that I am really proud of how the "Volume of a fuel tank" exercises is represented.
+
 Under construction!
