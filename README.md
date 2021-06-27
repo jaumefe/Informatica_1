@@ -32,4 +32,9 @@ This exercise is included inside GeometryApp project. It consists of a simple sc
 Arkanoid was the final project of the subject developped by a group of six people. This is the final version of our game.
 In general, the game is fully functional. However, sometimes depending on where the ball rebounds on the blocks, the detection of the impact may not work in an accurate way. 
 
+### Australia
+This is not a project concerning Computer Science. In fact, this is a project carried out by 4 people for English course, in which we were promoting a travel to Australia. Therefore, as we were learning to create websites, we decided to make one, just for fun.
+
+Some links may not be working because they depend on websites created by other members of the group and their Altervista accounts have been deleted.
+
 Under construction!
